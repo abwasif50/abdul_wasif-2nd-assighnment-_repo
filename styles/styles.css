@@ -542,12 +542,12 @@ margin-top: 100px;
     width: 1300px;
     height: 800px;
 }
-/*     
- @media screen and (max-width: 576px) { */
+     
+ @media screen and (max-width: 576px) { 
 
-
-/* ------------Banner section responsive stylee------ */
-    /* .nav{
+/* 
+ ------------Banner section responsive stylee------  */
+     .nav{
 display: block;
 flex-direction: column;
 text-align: center;
@@ -614,7 +614,7 @@ left: 0px;
 /* ----Havits section responsive style--- */
 
 
-/* .section-title,.section-title-description{
+ .section-title,.section-title-description{
 
     text-align: left;
 }
@@ -628,7 +628,7 @@ gap: 200px;
 ----run extra mile responsive stylee----- */
 
 
-/* .running-container{
+.running-container{
     flex-direction: column;
     gap: 0px;
     width: 100%;
@@ -647,7 +647,7 @@ gap: 200px;
 
     
   /* ---BMI section responsive-- */
-/* .bmi-container{
+ .bmi-container{
     flex-direction: column;
     gap: 0px;
 }
@@ -661,11 +661,11 @@ align-items: center;
     justify-content: flex-start;
     justify-content: center;
     margin-top: 45px;
-    }  */
+    }  
 
 /* -----Team section responsive style----- */
 
-    /* .image-container{
+     .image-container{
         margin-top: 0px;
         grid-template-columns:repeat(1,1fr);
     }
@@ -688,7 +688,7 @@ margin-top: 400px;
 
 /* ---footer section responsive style---- */
 
-/* .footer-section{
+.footer-section{
 
     width: 400px;
     height: 700px;
@@ -702,4 +702,5 @@ margin-left: 20PX;
     text-align: left;
     margin-left: 50px;
    }
-     */ */ */
+     
+ }
