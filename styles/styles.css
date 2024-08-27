@@ -3,196 +3,201 @@
 
 
 /* nav var style */
-.body{
-
+  .body{
 position: relative;
 width: 1350px;
 height: 5000px;
- background: rgb(0, 0, 0); 
-    
-}
-.banner-section{
-    width: 1350px;
-height: 700px;
-padding: left 65px;
-padding-right: 65px;
-top: 100px;
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+ background: rgb(0, 0, 0); } 
+     
 
-}
-.banner-container{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 
-}
-.nav{
-display: flex;
-justify-content: space-between;
-margin: 20px 200px;
-}
-.xyz{
-    color: rgb(255, 255, 255);
 
+html,body{
+width: 100%;
+height:100% ;
+   font-family:
+   inter,sans-serif; 
+   color:#ffffff ; 
 }
-.home-btn{
-    background-color: rgb(230, 83, 60);
-    border-radius: 10px;
-     color: rgb(255, 255, 255);
-     font-size: 1rem;
-     font-family: Inter;
-}
+header{
 
-.nav > ul >li{
-list-style: none;
-font-size: 1rem;
-     font-family: Inter;
-     margin: 0 15px;
+    width: 100%;
+    background: radial-gradient(farthest-corner,#313131,#111111);
 }
-.nav ul{
+nav{
 display: flex;
 align-items: center;
-gap: 20px;
+justify-content: space-between;
+padding: 50px 150px;
+cursor: pointer;
 }
-.nav li a{
-    text-decoration: none;
-    gap: 200px;
-    color: rgb(255, 255, 255);
-}
-.fitness{
-    color: rgb(230, 83, 60);
-font-family: Inter;
+.logo{
 font-size: 2.5rem;
 font-weight: 800;
-text-align: left;
+font-style: italic;
+color: #e6533c;
 }
-
-.banner-title{
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 4.5rem;
-    font-weight: 900;
-
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    border:1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 15px 10px 10px;
+    gap: 40px;
+    
 }
-.banner-text-container{
-margin-left: 70px;
-
-
+.navbar h4{
+font-size: 1rem;
+font-weight: 600;
+color: #ffffff;
 }
-.banner-text-container span{
-    font-family: 'Miama';
+.menu{
+    display: none;
 }
-
-.title-description{
-
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 1rem;
-    font-weight: 400;
-
+.home{
+    border-radius: 12px;
+padding: 10px 10px;
+background-color: #e6533c;
+}
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-left: 150px;
+padding-right: 150px;
+}
+.right-header{
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.right-header h1{
+font-size: 5rem;
+font-weight: 800;
+color: #ffffff;
+margin-bottom: 30px;
+line-height: 120%;
 }
 #span{
-    
-font-size: 4.8rem;
-font-weight: 400;
-font-family: 'Parisienne', cursive;
-}
+    line-height: 120%;
+    margin-bottom: 30px;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: 'Parisienne', cursive;
 
-.first-btn{
-    color: rgb(255, 255, 255);
-font-family: Inter;
+}
+.right-header p{
 font-size: 1rem;
-border-radius: 42px;
-background-color: rgb(230, 83, 60);
-padding: 16px 40px 16px 40px;
+letter-spacing: 0.5px;
+color: rgba(255, 255, 255, 0.5);
+margin-bottom: 24px;
+line-height: 24px;
 }
-.second-btn{
-    color: rgb(255, 255, 255);
-font-family: Inter;
+.right-header-btn{
+display: flex;
+gap: 14px;
+}
+.first-btn,.second-btn{
+padding: 16px 40px;
+border-radius: 42px;
+color: #ffffff;
+border: 1px solid #ffffff;
+background-color: #111111;
 font-size: 1rem;
-border-radius: 42px;
-background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-padding: 16px 40px 16px 40px;
+font-weight: 600;
+line-height: 21px;
+background-color: transparent;
 }
-.banner-img{
-    /* Images 1 */
-position: absolute;
-width: 350px;
-height: 580px;
-left: 850px;
-top: 120px;
+.btn-color{
+
+    background-color: #e6533c;
+    border: none;
 }
-.working-record{
-position: absolute;
-width: 193px;
-height: 98px;
-left: 1060px;
-top: 250px;
-box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
+.left-header{
+    position: relative;
+    height: 700px;
+}
+.box1{
+    left: 190px;
+top: 30px;
+    width: 170px;
+background-color: rgba(255, 255, 255, 0.1);
+height: 5rem;
 border-radius: 12px;
-padding: auto auto;
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-text-align: center;
-justify-content: center;
-}
-.working-record p{
+display: flex;
+flex-direction: column;
 position: absolute;
-margin-left:20px;
-margin-top: 70px;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+margin-right: -50px;
+z-index: 2;
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.box1 h4{
+font-size: 2rem;
+margin-top: 5px;
+}
+.box1 p{
+font-size: 1rem;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.4);
+position: absolute;
+margin-top: 50px;
+}
+.box2{
+width: 170px;
+height: 80px;
+position: absolute;
+margin-right: 500px;
+align-items: center;
+justify-content: center;
+gap: 10px;
+background-color: rgba(255, 255, 255, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.1);
+filter: blur(100);
+border-radius: 12px;
 
 }
-.working-record h2{
-margin: auto;
-    position: absolute;
-    margin-left: 50px;
+.icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #e6533c;
     margin-top: 10px;
 }
-
-.video-record{
-    position: absolute;
-    width: 206px;
-    height: 96px;
-    left: 725px;
-    top: 556px;
-    box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-
-border-radius: 5px;
-backdrop-filter: blur(20px);
-background: rgba(48, 48, 48, 0.54);
-text-align: center;
-}
-.title-1{
-text-align: center;
+.box2 h4{
+color: #ffffff;
 font-size: 1.5rem;
-font-weight: bolder;
-color: white;
-justify-items: center;
+font-weight: 900;
+margin-bottom: 3px;
+margin-top: 5px;
+position: absolute;
+margin-left: 50px;
 }
-.title-2{
-    position: absolute;
-    font-size: 2rem;
-    font-weight: bolder;
-    color: white;
-    margin-bottom: px;
+.box2 p{ 
+font-size: 1rem;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.4);
+position: absolute;
+margin-top: 45px;
+margin-left: 35px;
 }
-.banner-item-container{
-display: flex;
-gap: 400px;
 
-}
-.banner-item-container div{
 
-    width: 50
-}
 /* section 2 start */
+.havits-section{
+align-items: center;
+
+}
 .section-title{
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 3rem;
     font-weight: 900;
-    text-align: centeR;
+    text-align: center;
 
 }
 .section-title-description{
@@ -423,7 +428,7 @@ color: rgb(255, 255, 255);
 .team-sections{
 
 width: 1060px;
-height: 300px;
+height: 300px
 }
 .motivation{
     color: rgba(255, 255, 255, 0.5);
@@ -506,7 +511,7 @@ margin-left: 100px;
 .footer-section{
     
     width: 1350px;
-/* height: 386px; */
+height: 386px;
 background: rgb(34, 34, 34);
 margin-top: 100px;
 
@@ -515,50 +520,186 @@ margin-top: 100px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;  
     margin-top: 30px;  
+}
+.fitness{
+
+    color: #e6533c
+    ;
+}
+.title-description{
+    color: rgba(255, 255, 255, 0.5);
+
 }
 .img-box img{
     width: 100%;
 }
+.banner{
 
     
-/* @media screen and (max-width: 576px) {
-    .image-container{
+    width: 1300px;
+    height: 800px;
+}
+/*     
+ @media screen and (max-width: 576px) { */
+
+
+/* ------------Banner section responsive stylee------ */
+    /* .nav{
+display: block;
+flex-direction: column;
+text-align: center;
+    }
+  
+
+  nav{
+    padding: 50px 30px;
+  }
+  .navbar{
+    display: none;
+  }
+  .menu{
+    display: flex;
+  }
+  .header{
+flex-direction: column;
+padding-left: 30px;
+padding-left: 30px;
+
+  }
+  .right-header{
+justify-content: center;
+align-items:flex-start;
+flex-direction: column;
+display: flex;
+
+  }
+  .right-header h1{
+font-size: 50px;
+margin-bottom: 30px;
+
+  }
+.right-header-btn{
+display: flex;
+gap: 14px;
+
+  }
+  .first-btn,.second-btn{
+padding: 10px 20px;
+border-radius: 35px;
+font-size: 14px;
+line-height: 20px;
+
+
+
+  }
+  .box1{
+height: 70px;
+width: 150px;
+position: absolute;
+top:15%;
+right: 0px;
+  }
+  .box2{
+height: 80px;
+width: 150px;
+position: absolute;
+top: 50%;
+left: 0px;
+
+  }
+
+/* ----Havits section responsive style--- */
+
+
+/* .section-title,.section-title-description{
+
+    text-align: left;
+}
+.img-container{
+gap: 200px;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+/* 
+----run extra mile responsive stylee----- */
+
+
+/* .running-container{
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+        }
+        
+    .run-box{
+    
+    text-align: left;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-top: 
+    10px;
+    }
+
+    
+  /* ---BMI section responsive-- */
+/* .bmi-container{
+    flex-direction: column;
+    gap: 0px;
+}
+.Bmi-chart{
+    
+    text-align: left;
+    justify-content: flex-start;
+}
+    .Bmi-calculator{
+align-items: center;
+    justify-content: flex-start;
+    justify-content: center;
+    margin-top: 45px;
+    }  */
+
+/* -----Team section responsive style----- */
+
+    /* .image-container{
+        margin-top: 0px;
         grid-template-columns:repeat(1,1fr);
     }
-    .banner-item-container div{
-flex-direction: column;
-gap: 0px;
-display: block;
-display: inline;
+    .imagoo{
+justify-content: center;
+margin-left: 40px;
 
     }
+    .hedline{
+text-align: left;
 
-    .section-title,.section-title-description{
+margin-top: 400px;
 
-        text-align: left;
-    }
-    .img-container{
-gap: 200px;
-        flex-direction: column;
-        margin-left: 120px;
-    }
-
-    .nav{
-flex-direction: column;
-        display: block;
-        text-align: center;
     }
     
 .team-sections{
     width: 50%;
 }
-/* .running-container{
-width: 1300px;
-height: 600px;
-flex-direction: column; */
+    
 
+/* ---footer section responsive style---- */
+
+/* .footer-section{
+
+    width: 400px;
+    height: 700px;
 }
-     */
+
+    .footer-container{
+flex-direction: column;
+margin-left: 20PX;
+    }
+   .title-description-footer{
+    text-align: left;
+    margin-left: 50px;
+   }
+     */ */ */
